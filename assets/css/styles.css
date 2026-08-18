@@ -408,6 +408,7 @@ section{ padding:108px 0; position:relative; }
 .form input::placeholder{ color:rgba(243,240,231,0.45); }
 .form input:focus{ border-color:var(--gold-300); box-shadow:0 0 0 3px rgba(201,151,59,0.25); }
 .form-note{ font-size:12.5px; color:rgba(243,240,231,0.5); margin-top:12px; font-family:var(--font-mono); }
+.form-note a{ color:var(--gold-300); }
 .form-success{ display:none; font-family:var(--font-mono); font-size:13.5px; color:#4FD695; margin-top:14px; }
 .form-select-row{ display:flex; gap:18px; margin-top:16px; flex-wrap:wrap; }
 .form-select-row label{ display:flex; align-items:center; gap:7px; font-size:13.5px; color:rgba(243,240,231,0.75); }
@@ -423,6 +424,22 @@ footer{ background:var(--navy-900); color:rgba(243,240,231,0.6); padding:48px 0 
 .footer-links{ display:flex; gap:26px; font-size:13.5px; }
 .footer-links a{ text-decoration:none; color:rgba(243,240,231,0.65); }
 .footer-links a:hover{ color:var(--cream); }
+
+/* ---------------------- legal pages (privacy / terms) ---------------------- */
+.legal-page{ background:var(--cream); min-height:100vh; }
+.legal-page .container{ max-width:760px; padding-top:56px; padding-bottom:80px; }
+.legal-page__back{ font-family:var(--font-mono); font-size:12.5px; letter-spacing:0.06em; color:var(--ink-soft); text-decoration:none; display:inline-block; margin-bottom:28px; }
+.legal-page__back:hover{ color:var(--navy-900); }
+.legal-page h1{ font-size:clamp(1.8rem,3vw,2.4rem); color:var(--navy-900); margin-bottom:8px; }
+.legal-page__meta{ font-family:var(--font-mono); font-size:12px; color:var(--ink-soft); letter-spacing:0.04em; margin-bottom:8px; }
+.legal-page__draft-note{ background:rgba(198,138,17,0.1); border:1px solid rgba(198,138,17,0.35); border-radius:var(--radius-m); padding:16px 20px; font-size:13.5px; line-height:1.6; color:var(--navy-900); margin:24px 0 40px; }
+.legal-page__draft-note strong{ color:var(--gold-700); }
+.legal-page h2{ font-size:1.3rem; color:var(--navy-900); margin:36px 0 12px; }
+.legal-page p, .legal-page li{ font-size:15.5px; line-height:1.7; color:var(--ink-soft); }
+.legal-page ul{ margin:0 0 16px; padding-left:22px; }
+.legal-page li{ margin-bottom:6px; }
+.legal-page a{ color:var(--gold-700); }
+.legal-page [data-fill]{ background:rgba(198,138,17,0.16); padding:1px 5px; border-radius:4px; font-family:var(--font-mono); font-size:0.92em; }
 .footer-bottom{ display:flex; justify-content:space-between; flex-wrap:wrap; gap:10px; padding-top:22px; font-family:var(--font-mono); font-size:11.5px; letter-spacing:0.03em; }
 
 /* -------------------------------- reveal on scroll -------------------------------- */
